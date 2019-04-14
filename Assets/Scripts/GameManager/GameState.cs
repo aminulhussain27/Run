@@ -122,8 +122,6 @@ public class GameState : AState
 
         if (chrCtrl.currentLife <= 0)
         {
-			chrCtrl.currentLife = 3;//CHEAT
-			return;
 
 			pauseButton.gameObject.SetActive(false);
             chrCtrl.CleanConsumable();
